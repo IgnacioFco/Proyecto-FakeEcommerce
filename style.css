@@ -111,7 +111,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 85px;
+    min-height: 85px;
     padding: 5px 10%;
   
 }
@@ -332,12 +332,15 @@ footer{
 }
 
 @media screen and (max-width:680px){
-    .nav-links{
-        display: none;
-    }
+ 
 
     .header div a{
         display: none;
+    }
+
+    .header .logo img{
+        height: 40px;
+        width: auto;
     }
 
 }
@@ -347,5 +350,10 @@ footer{
     position: fixed;
     left: 20px;
     bottom: 40px;
+    }
+
+    .header .logo img{
+        height: 13px;
+        width: auto;
     }
 }
