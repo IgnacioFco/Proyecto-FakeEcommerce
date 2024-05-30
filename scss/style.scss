@@ -1,0 +1,25 @@
+
+// import
+
+//base
+
+@import './base/reset';
+
+//layout
+
+@import './layout/header';
+@import './layout/prod-container';
+@import './layout/footer';
+@import './layout/ayuda-pag';
+@import './layout/contacto-maps';
+
+//Components
+@import './components/ventas';
+@import './components/git-logo';
+
+//Media-Queries
+@import './media-queries/media';
+
+//Variables
+@import './utilities/variables';
+

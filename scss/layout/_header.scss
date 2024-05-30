@@ -1,0 +1,94 @@
+@import '../utilities/variables';
+
+.header{
+    background-color: $primer-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 85px;
+    padding: 5px 10%;
+    
+    .btn button{
+        font-weight: 700;
+        color: $primer-color;
+        padding: 9px 25px;
+        background: $segundo-color;
+        border: none;
+        border-radius: 50px;
+    }
+    button:hover{
+        background-color: #e2f1f8;
+        color: #ffbc0e;
+        transform: scale(1.1);
+    }
+    
+    
+    .logo{
+        cursor: pointer;
+    
+            img{
+                height: 70px;
+                width: auto;
+                transition: all 0.3s;
+            }
+            img:hover{
+                transform: scale(1.2);
+            }
+           
+
+    }
+  .nav-links{
+    list-style: none;
+    li{
+        display: inline-block;
+        padding: 0 20px; 
+        
+    }
+    li:hover{
+        transform: scale(1.1);
+    }
+    a{
+        font-size: 700;
+    color: $segundo-color;
+    text-decoration: none;    
+            }
+            a:hover{
+                color: #ffbc0e;
+                        }
+        }
+    }
+
+
+
+
+    .btn{
+        img{
+            height: 30px;
+    
+    }
+}
+
+#bv{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+}
+
+#pdes{
+    
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid black;
+
+}
+
+
+/*
+#asuspri{
+    width: 100%;
+    height: 450px;
+}
+*/

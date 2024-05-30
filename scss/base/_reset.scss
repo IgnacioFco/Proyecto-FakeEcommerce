@@ -1,0 +1,18 @@
+*::after,
+*::before,
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Brygada 1918", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 25px; 
+    font-family: Lato;
+    margin: 0 auto;
+}
+

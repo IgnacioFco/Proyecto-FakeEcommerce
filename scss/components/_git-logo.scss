@@ -1,0 +1,21 @@
+/* logiyo git*/
+
+@import '../utilities/variables';
+
+.logogit{
+    position: fixed;
+    right: $r1;
+    bottom: $b1;
+}
+
+.logogitProd{
+    position: fixed;
+    right: $r1;
+    bottom: $b1;
+
+    transition: 3s;
+}
+
+.logogitProd:hover{
+    transform: rotate(360deg);
+}

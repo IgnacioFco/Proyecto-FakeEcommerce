@@ -3,3 +3,5 @@ img * cache
 *.txt
 
 background.jpg
+
+.json
